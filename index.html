@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Todo List</h1>
+        
+        <div class="input-section">
+            <input type="text" id="todoInput" placeholder="Enter a new todo...">
+            <button onclick="addTodo()">Add</button>
+        </div>
+
+        <div id="stats"></div>
+        
+        <ul id="todoList"></ul>
+        
+        <div class="actions">
+            <button onclick="clearAll()">Clear All</button>
+            <button onclick="exportData()">Export</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
