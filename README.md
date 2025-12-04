@@ -1,0 +1,1 @@
+Code Qualityの検証用リポ
